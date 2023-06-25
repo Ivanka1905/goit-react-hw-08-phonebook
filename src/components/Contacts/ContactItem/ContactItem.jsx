@@ -28,3 +28,27 @@ ContactItem.propTypes = {
 };
 
 export default ContactItem;
+
+
+// const deleteContactt = deleteId => {
+//     dispatch(deleteContact(deleteId));
+//   };
+//   return (
+//     <ListItem>
+//       <span>
+//         &#9900; {name}: <Span>{phone}</Span>
+//       </span>
+//       <Button type="button" onClick={() => deleteContactt(id)}>
+//         Delete
+//       </Button>
+//     </ListItem>
+//   );
+// };
+
+// ContactItem.propTypes = {
+//   name: PropTypes.string,
+//   number: PropTypes.string,
+//   id: PropTypes.string,
+// };
+
+// export default ContactItem;
